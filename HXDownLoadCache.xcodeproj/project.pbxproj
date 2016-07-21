@@ -414,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HXDownLoadCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Cave.HXDownLoadCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HXDownLoadCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Cave.HXDownLoadCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +498,7 @@
 				4869168C1D4116DB0077A2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4869168D1D4116DB0077A2DF /* Build configuration list for PBXNativeTarget "HXDownLoadCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +507,7 @@
 				4869168F1D4116DB0077A2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		486916901D4116DB0077A2DF /* Build configuration list for PBXNativeTarget "HXDownLoadCacheUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +516,7 @@
 				486916921D4116DB0077A2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
