@@ -12,7 +12,7 @@
 @implementation HXDownLoadCache
 
 #pragma mark - Singleton Methods
-+ (instancetype)cache {
++ (instancetype)instance {
     static HXDownLoadCache *cache = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -21,9 +21,9 @@
     return cache;
 }
 
-+ (instancetype)cacheWithCache:(NSURLCache *)cache {
++ (instancetype)instanceWithCache:(NSURLCache *)cache {
     [NSURLCache setSharedURLCache:cache];
-    return [self cache];
+    return [self instance];
 }
 
 #pragma mark - Property

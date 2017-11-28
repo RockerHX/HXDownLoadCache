@@ -16,8 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak, readonly) NSURLCache *cache;
 
-+ (instancetype)cache;
-+ (instancetype)cacheWithCache:(NSURLCache *)cache;
++ (instancetype)instance;
++ (instancetype)instanceWithCache:(NSURLCache *)cache;
 
 /**
  *  Timeout     : 10.0f
